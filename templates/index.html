@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenoComputerFix - Refurbished Laptops</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔧 RenoComputerFix</h1>
+            <p class="tagline">Professional Refurbished Laptops • Reno, Nevada</p>
+        </div>
+    </header>
+
+    <div class="sync-banner">
+        <div class="container">
+            <div class="sync-info">
+                <span class="live-indicator">🟢 LIVE</span>
+                <strong>{{ total_laptops }} laptops</strong> synced from {{ vendor_store }}
+                <span class="last-updated">Last updated: {{ last_updated }}</span>
+                {% if data_source == 'fallback' %}
+                <span class="demo-note">(Demo Mode - Live eBay data will replace this)</span>
+                {% endif %}
+            </div>
+            <button id="refresh-btn" class="refresh-btn">↻ Refresh Inventory</button>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="inventory-header">
+            <h2>Extended Laptop Inventory</h2>
+            <p class="inventory-subtitle">
+                Expanded selection with {{ markup_percentage }}% markup applied • Ready for immediate sale
+            </p>
+        </div>
+
+        <div class="laptop-grid">
+            {% for laptop in laptops %}
+            <div class="laptop-card">
+                <div class="laptop-image">
+                    <div class="placeholder-laptop">💻</div>
+                </div>
+                <div class="laptop-info">
+                    <h3 class="laptop-title">{{ laptop.title }}</h3>
+                    <p class="laptop-description">{{ laptop.snippet }}</p>
+                    
+                    <div class="pricing">
+                        <div class="price-breakdown">
+                            <span class="vendor-price">Vendor: ${{ "%.2f"|format(laptop.price) }}</span>
+                            <span class="markup-applied">+{{ markup_percentage }}%</span>
+                        </div>
+                        <div class="your-price">${{ "%.2f"|format(laptop.marked_up_price) }}</div>
+                        <div class="profit-margin">Your profit: ${{ "%.2f"|format(laptop.marked_up_price - laptop.price) }}</div>
+                    </div>
+                    
+                    <div class="laptop-actions">
+                        <button class="btn-primary">Add to Your Store</button>
+                        <button class="btn-secondary">View on eBay</button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="integration-note">
+            <h3>🔌 Production Integration</h3>
+            <p>In production, this pipeline syncs directly to your Squarespace store via their Content API. 
+               Customers see this expanded inventory on your actual website with your branding.</p>
+            <ul>
+                <li>✅ Automated daily sync (configurable schedule)</li>
+                <li>✅ Real-time price updates with your markup applied</li>
+                <li>✅ Out-of-stock items automatically removed</li>
+                <li>✅ New arrivals added within hours</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

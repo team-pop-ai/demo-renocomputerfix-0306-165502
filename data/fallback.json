@@ -1,0 +1,141 @@
+{
+  "laptops": [
+    {
+      "title": "Dell Latitude 7420 14\" Laptop Intel i5-1135G7 16GB RAM 256GB SSD",
+      "price": 445.00,
+      "marked_up_price": 578.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Professional grade laptop, excellent condition, Windows 11 Pro"
+    },
+    {
+      "title": "HP EliteBook 840 G8 14\" Intel i7-1165G7 32GB RAM 512GB SSD",
+      "price": 625.00,
+      "marked_up_price": 812.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "High-performance business laptop, like new condition"
+    },
+    {
+      "title": "Lenovo ThinkPad T14 Gen 2 AMD Ryzen 7 16GB RAM 256GB SSD",
+      "price": 520.00,
+      "marked_up_price": 676.00,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Reliable ThinkPad build quality, perfect for business use"
+    },
+    {
+      "title": "Dell XPS 13 9310 13.3\" Intel i7-1165G7 16GB RAM 512GB SSD",
+      "price": 750.00,
+      "marked_up_price": 975.00,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Premium ultrabook, excellent display, very portable"
+    },
+    {
+      "title": "HP Pavilion 15 15.6\" AMD Ryzen 5 8GB RAM 256GB SSD",
+      "price": 285.00,
+      "marked_up_price": 370.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Great value laptop for everyday computing tasks"
+    },
+    {
+      "title": "Lenovo IdeaPad 5 15\" Intel i5-1135G7 12GB RAM 512GB SSD",
+      "price": 395.00,
+      "marked_up_price": 513.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Mid-range laptop perfect for work and entertainment"
+    },
+    {
+      "title": "Dell Inspiron 15 3000 15.6\" Intel i3-1115G4 8GB RAM 256GB SSD",
+      "price": 225.00,
+      "marked_up_price": 292.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Budget-friendly laptop for basic computing needs"
+    },
+    {
+      "title": "HP ProBook 450 G8 15.6\" Intel i5-1135G7 16GB RAM 256GB SSD",
+      "price": 465.00,
+      "marked_up_price": 604.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Professional laptop with excellent build quality"
+    },
+    {
+      "title": "Lenovo ThinkPad E15 Gen 2 15.6\" AMD Ryzen 5 8GB RAM 256GB SSD",
+      "price": 340.00,
+      "marked_up_price": 442.00,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Affordable ThinkPad with solid performance"
+    },
+    {
+      "title": "Dell Latitude 5520 15.6\" Intel i7-1165G7 16GB RAM 512GB SSD",
+      "price": 585.00,
+      "marked_up_price": 760.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Enterprise-grade laptop with premium features"
+    },
+    {
+      "title": "HP Envy x360 15.6\" AMD Ryzen 7 16GB RAM 512GB SSD Touchscreen",
+      "price": 645.00,
+      "marked_up_price": 838.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "2-in-1 convertible laptop with touchscreen display"
+    },
+    {
+      "title": "Lenovo Legion 5 15.6\" AMD Ryzen 5 16GB RAM 512GB SSD GTX 1650",
+      "price": 685.00,
+      "marked_up_price": 890.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Gaming laptop with dedicated graphics card"
+    },
+    {
+      "title": "Dell Vostro 15 3000 15.6\" Intel i5-1135G7 8GB RAM 256GB SSD",
+      "price": 325.00,
+      "marked_up_price": 422.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Small business focused laptop with reliable performance"
+    },
+    {
+      "title": "HP ZBook Firefly 14 G8 Intel i7-1165G7 32GB RAM 1TB SSD",
+      "price": 895.00,
+      "marked_up_price": 1163.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Mobile workstation for professional applications"
+    },
+    {
+      "title": "Lenovo ThinkPad X1 Carbon Gen 9 14\" Intel i5-1135G7 16GB RAM 256GB SSD",
+      "price": 775.00,
+      "marked_up_price": 1007.50,
+      "image": "/static/laptop-placeholder.png",
+      "source": "Electro Room eBay",
+      "link": "#",
+      "snippet": "Ultra-premium business laptop, carbon fiber build"
+    }
+  ],
+  "last_updated": "2024-01-15T10:30:00",
+  "source": "fallback"
+}

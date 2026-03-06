@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.sync-banner {
+    background: #e8f5e8;
+    border-bottom: 2px solid #27ae60;
+    padding: 1rem 0;
+}
+
+.sync-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.live-indicator {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.last-updated {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.demo-note {
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.refresh-btn {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.refresh-btn:hover {
+    background: #2ecc71;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.inventory-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.inventory-header h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.inventory-subtitle {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.laptop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.laptop-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.laptop-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.laptop-image {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.placeholder-laptop {
+    font-size: 3rem;
+    color: #bdc3c7;
+}
+
+.laptop-title {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.laptop-description {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.pricing {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.price-breakdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.vendor-price {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.markup-applied {
+    background: #3498db;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.your-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 0.2rem;
+}
+
+.profit-margin {
+    color: #e67e22;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.laptop-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #666;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+.btn-secondary:hover {
+    background: #f8f9fa;
+}
+
+.integration-note {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid #3498db;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.integration-note h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.integration-note ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.integration-note li {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .laptop-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sync-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .refresh-btn {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
